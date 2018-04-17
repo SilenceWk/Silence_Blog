@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QRcode</title>
+</head>
+<body>
+<form action="{% url 'blog:createqrcode' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="QRcode">输入你想要输入的文字生成二维码
+    <input type="submit" name="生成">
+</form>
+</body>
+</html>
