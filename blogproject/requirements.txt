@@ -19,7 +19,7 @@ jieba==0.39
 kombu==3.0.37
 lxml==4.2.1
 Markdown==2.6.2
-Pillow==5.0.0
+Pillow==6.2.0
 post==0.0.26
 psycopg2==2.7.4
 public==0.0.65
