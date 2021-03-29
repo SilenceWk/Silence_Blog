@@ -23,7 +23,7 @@ Pillow==5.0.0
 post==0.0.26
 psycopg2==2.7.4
 public==0.0.65
-Pygments==2.2.0
+Pygments==2.7.4
 PyMySQL==0.8.0
 pypng==0.0.18
 PyQRCode==1.2.1
